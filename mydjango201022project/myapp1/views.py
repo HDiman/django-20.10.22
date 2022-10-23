@@ -14,11 +14,15 @@ def index_page(request):
     # updating_worker.save()
 
     all_workers = Worker.objects.all()
-    print(all_workers)
+    # print(all_workers)
 
     # Filtering some data
-    workers_filter = Worker.objects.filter(salary=100000)
-    print(workers_filter)
+    # workers_filter = Worker.objects.filter(salary=100000)
+    # print(workers_filter)
+
+    # Delete some data
+    # delete_worker = Worker.objects.get(id=3)
+    # delete_worker.delete()
 
     for i in all_workers:
         print(f'Имя: {i.name}, Фамилия: {i.last_name}, Зарплата: {i.salary}, Поряд.номер: {i.id}')
