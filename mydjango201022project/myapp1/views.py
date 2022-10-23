@@ -3,6 +3,10 @@ from myapp1.models import Worker
 
 # Create your views here.
 def index_page(request):
+
+    new_worker = Worker(name='Иван', last_name='Иванов', salary=70000)
+    new_worker.save()
+
     all_workers = Worker.objects.all()
     print(all_workers)
 
