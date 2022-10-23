@@ -5,6 +5,10 @@ from myapp1.models import Worker
 def index_page(request):
     all_workers = Worker.objects.all()
     print(all_workers)
+
+    workers_filter = Worker.objects.filter(salary=100000)
+    print(workers_filter)
+
     return render(request, 'index.html')
 
 
