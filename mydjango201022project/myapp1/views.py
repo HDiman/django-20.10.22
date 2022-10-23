@@ -9,7 +9,7 @@ def index_page(request):
 
     updating_worker = Worker.objects.get(id=5)
     print(updating_worker)
-
+    updating_worker.last_name = 'Кирилов'
 
     all_workers = Worker.objects.all()
     print(all_workers)
