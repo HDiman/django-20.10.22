@@ -4,3 +4,4 @@ class Foo:
         return '123'
 
 print(repr(int(Foo())))
+print(int(Foo()))
