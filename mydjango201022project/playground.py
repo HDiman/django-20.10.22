@@ -1,7 +1,10 @@
+#
+# class Foo:
+#     def __index__(self):
+#         return '123'
+#
+# print(repr(int(Foo())))
+# print(int(Foo()))
 
-class Foo:
-    def __index__(self):
-        return '123'
+print('1' in '123')
 
-print(repr(int(Foo())))
-print(int(Foo()))
