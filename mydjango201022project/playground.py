@@ -16,3 +16,5 @@ print('1' in '123')
 # 4. Play with others players
 # 5. Teach Computer
 # 6. Play with Computer
+
+print("Eat that frog!")
