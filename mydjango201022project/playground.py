@@ -18,3 +18,4 @@ print('1' in '123')
 # 6. Play with Computer
 
 print("Eat that frog!")
+print("Do fewer things. Do most important things. Do more often")
